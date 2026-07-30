@@ -1,0 +1,32 @@
+{
+  "name": "multichannel-extractor",
+  "private": true,
+  "version": "0.8.4",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "tauri": "tauri",
+    "check": "npm run check:config && npm run check:layout && npm run check:081 && npm run check:082 && npm run check:083 && npm run check:084 && npm run build && cargo fmt --manifest-path src-tauri/Cargo.toml -- --check && cargo check --manifest-path src-tauri/Cargo.toml && cargo test --manifest-path src-tauri/Cargo.toml",
+    "check:config": "node scripts/check-config.mjs",
+    "check:layout": "node scripts/check-layout.mjs",
+    "check:081": "node scripts/check-081.mjs",
+    "check:082": "node scripts/check-082.mjs",
+    "check:083": "node scripts/check-083.mjs",
+    "check:084": "node scripts/check-084.mjs"
+  },
+  "dependencies": {
+    "@tauri-apps/api": "^2.0.0",
+    "@tauri-apps/plugin-dialog": "^2.0.0",
+    "pinia": "^3.0.0",
+    "vue": "^3.5.0"
+  },
+  "devDependencies": {
+    "@tauri-apps/cli": "^2.0.0",
+    "@vitejs/plugin-vue": "^6.0.0",
+    "typescript": "^5.8.0",
+    "vite": "^7.0.0",
+    "vue-tsc": "^3.0.0"
+  }
+}
