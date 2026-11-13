@@ -1,3 +1,27 @@
+<div align="center">
+
+<img src="./assets/readme-hero.svg" alt="MultiChannel-Project-Extractor" width="1000" />
+
+**MultiChannel-Project-Extractor**
+
+[![stars](https://img.shields.io/github/stars/momoqiqi-qwq/MultiChannel-Project-Extractor?style=for-the-badge&color=f5c518&labelColor=2b2b2b)](https://github.com/momoqiqi-qwq/MultiChannel-Project-Extractor/stargazers) ![license](https://img.shields.io/github/license/momoqiqi-qwq/MultiChannel-Project-Extractor?style=for-the-badge&color=3da639) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white) ![Tauri 2](https://img.shields.io/badge/Tauri%202-24C8DB?style=for-the-badge&logo=tauri&logoColor=white)
+
+</div>
+
+<details>
+<summary><b>目录</b></summary>
+
+- [✨ 项目简介](#项目简介)
+- [🎨 主要特点](#主要特点)
+- [📦 包含模块](#包含模块)
+- [🛠️ 如何使用](#如何使用)
+- [❓ 效果演示](#效果演示)
+- [🙏 贡献](#贡献)
+
+</details>
+
+---
+
 # 解压台 · 多通道项目解压与任务中心
 
 ### ✨ 项目简介
